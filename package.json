@@ -1,0 +1,27 @@
+{
+  "name": "sign-in-google",
+  "version": "1.0.0",
+  "description": "Sign in with Google implementation using Google Identity Services (GIS) and Node.js backend token verification",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "google-sign-in",
+    "google-identity-services",
+    "oauth2",
+    "authentication",
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.1"
+  }
+}
